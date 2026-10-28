@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEDE5020 ICE Task 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>WEDE5020 ICE Task 3</h1>
+
+        <section>
+            <p id="experienceLabel">What is my experience?</p>
+            <button type="button" onclick="showExperience()">Answer</button>
+        </section>
+
+        <br>
+        <hr>
+        <br>
+
+        <section>
+            <h2>Double a Number</h2>
+            <label for="doubleInput">Enter a number:</label>
+            <input id="doubleInput" type="number" step="any">
+            <button type="button" onclick="doubleNumber()">Calculate Double</button>
+            <p id="doubleResult" aria-live="polite"></p>
+        </section>
+
+        <br>
+        <hr>
+        <br>
+
+        <section>
+            <h2>Calculate an Average</h2>
+            <label for="firstNumber">First number:</label>
+            <input id="firstNumber" type="number" step="any">
+            <br>
+            <label for="secondNumber">Second number:</label>
+            <input id="secondNumber" type="number" step="any">
+            <br>
+            <button type="button" onclick="calculateAverage()">Calculate Average</button>
+            <p id="averageResult" aria-live="polite"></p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
